@@ -17,9 +17,10 @@ body {
 iframe {
   position: relative;
   top: -53px;
+  height: calc(100% + 53px);
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   iframe {
     top: -40px;
   }
