@@ -17,6 +17,9 @@ header {
   flex-direction: column;
   margin: 0 auto;
 }
+header img {
+  max-width: 538px;
+}
 header nav {
   border-top: 1px solid #547a6a;
   min-width: 538px;

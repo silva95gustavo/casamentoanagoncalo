@@ -19,9 +19,13 @@ header {
   align-items: center;
   flex-direction: column;
 
+  img {
+    max-width: 538px;
+  }
+
   nav {
     border-top: 1px solid $bodyColor;
-    min-width:538px;
+    min-width: 538px;
     font-size: 14px;
     
     ul {
