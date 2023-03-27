@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background: url("../background.webp");
+  background: url("../img/background.webp");
   color: $bodyColor;
   font-family: $bodyFont;
   font-size: 18px;
@@ -63,4 +63,12 @@ h1,h2,h3,h4,h5,h6 {
 
 h3 {
   font-size: 24px;
+  font-weight: bold;
+}
+
+p.sub-note {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  margin: 0;
 }
