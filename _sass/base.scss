@@ -9,8 +9,9 @@ body {
   text-align: center;
   line-height: 34px;
   padding: 1rem;
-  margin: 0;
-  min-width: 538px;
+  margin: 0 auto;
+  min-width: 25rem;
+  max-width: 50rem;
   overflow: auto;
 }
 
@@ -19,8 +20,8 @@ header {
   align-items: center;
   flex-direction: column;
 
-  img {
-    max-width: 538px;
+  .logo {
+    max-width: 30rem;
   }
 
   nav {
@@ -38,7 +39,6 @@ header {
       }
     }
   }
-  margin: 0 auto;
 }
 
 a {

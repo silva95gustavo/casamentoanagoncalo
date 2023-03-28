@@ -6,8 +6,9 @@ body {
   text-align: center;
   line-height: 34px;
   padding: 1rem;
-  margin: 0;
-  min-width: 538px;
+  margin: 0 auto;
+  min-width: 25rem;
+  max-width: 50rem;
   overflow: auto;
 }
 
@@ -15,10 +16,9 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 0 auto;
 }
-header img {
-  max-width: 538px;
+header .logo {
+  max-width: 30rem;
 }
 header nav {
   border-top: 1px solid #547a6a;
