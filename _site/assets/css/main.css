@@ -1,7 +1,3 @@
-html {
-  width: 100%;
-}
-
 body {
   background: url("../img/background.webp");
   color: #547a6a;
@@ -9,6 +5,10 @@ body {
   font-size: 18px;
   text-align: center;
   line-height: 34px;
+  padding: 1rem;
+  margin: 0;
+  min-width: 538px;
+  overflow: auto;
 }
 
 header {
@@ -22,7 +22,6 @@ header img {
 }
 header nav {
   border-top: 1px solid #547a6a;
-  min-width: 538px;
   font-size: 14px;
 }
 header nav ul {
