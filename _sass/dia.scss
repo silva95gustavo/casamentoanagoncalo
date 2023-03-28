@@ -19,3 +19,26 @@
     text-align: left;
   }
 }
+
+.location-caption {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+  .icon img {
+    width: 47px;
+    height: 47px;
+  }
+  .description {
+    text-align: left;
+    p {
+      margin: 0;
+    }
+  }
+}

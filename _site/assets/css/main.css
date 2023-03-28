@@ -107,4 +107,26 @@ h3 {
   text-align: left;
 }
 
+.location-caption {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+.location-caption .icon {
+  display: flex;
+  align-items: center;
+}
+.location-caption .icon img {
+  width: 47px;
+  height: 47px;
+}
+.location-caption .description {
+  text-align: left;
+}
+.location-caption .description p {
+  margin: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
