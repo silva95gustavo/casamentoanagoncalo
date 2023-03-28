@@ -1,7 +1,14 @@
 $bodyColor: #547a6a;
 $bodyFont: georgia, palatino, "book antiqua", "palatino linotype", serif;
+$footerHeight: 2.5rem;
+
+html {
+  min-height: 100%;
+}
 
 body {
+  position: relative;
+  min-height: 100vh;
   background: url("../img/background.webp");
   color: $bodyColor;
   font-family: $bodyFont;
@@ -12,7 +19,6 @@ body {
   margin: 0 auto;
   min-width: 25rem;
   max-width: 50rem;
-  overflow: auto;
 }
 
 header {
@@ -27,12 +33,12 @@ header {
   nav {
     border-top: 1px solid $bodyColor;
     font-size: 14px;
-    
+
     ul {
       list-style: none;
       margin: 0;
       padding: 0;
-      
+
       li {
         display: inline-block;
         padding: 0 10px;
@@ -52,11 +58,25 @@ a {
 }
 
 main {
+  flex-grow: 1;
   max-width: 36rem;
   margin: 0 auto;
+  padding-bottom: $footerHeight;
 }
 
-h1,h2,h3,h4,h5,h6 {
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footerHeight;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
 }
 
@@ -65,7 +85,7 @@ h3 {
   font-weight: bold;
 }
 
-p.sub-note {
+.sub-note {
   font-size: 14px;
   font-style: italic;
   line-height: 24px;
