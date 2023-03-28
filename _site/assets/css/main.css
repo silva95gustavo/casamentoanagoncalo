@@ -26,7 +26,9 @@ header .logo {
   max-width: 30rem;
 }
 header nav {
-  border-top: 1px solid #547a6a;
+  border: 1px solid #547a6a;
+  border-left: none;
+  border-right: none;
   font-size: 14px;
 }
 header nav ul {
