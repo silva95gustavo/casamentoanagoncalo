@@ -28,17 +28,27 @@
   justify-content: center;
 
   .icon {
+    color: $bodyColor;
     display: flex;
-    align-items: center;
+    margin-top: 1rem;
   }
   .icon img {
     width: 47px;
     height: 47px;
   }
   .description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     text-align: left;
     p {
       margin: 0;
+    }
+    .address {
+      font-weight: normal;
+      a {
+        text-decoration: underline;
+      }
     }
   }
 }

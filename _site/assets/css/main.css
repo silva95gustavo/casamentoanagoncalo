@@ -117,18 +117,28 @@ h3 {
   justify-content: center;
 }
 .location-caption .icon {
+  color: #547a6a;
   display: flex;
-  align-items: center;
+  margin-top: 1rem;
 }
 .location-caption .icon img {
   width: 47px;
   height: 47px;
 }
 .location-caption .description {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   text-align: left;
 }
 .location-caption .description p {
   margin: 0;
+}
+.location-caption .description .address {
+  font-weight: normal;
+}
+.location-caption .description .address a {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */
