@@ -98,3 +98,26 @@ h3 {
 .countdown-timer {
   margin-top: -2rem;
 }
+
+.two-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+
+  a {
+    text-decoration: underline;
+  }
+
+  div {
+    flex: 1 1 0px;
+  }
+
+  :first-child {
+    text-align: right;
+  }
+
+  :last-child {
+    text-align: left;
+  }
+}
