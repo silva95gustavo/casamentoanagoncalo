@@ -145,4 +145,37 @@ h3 {
   text-decoration: underline;
 }
 
+.informacoes-location-caption {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.informacoes-location-caption .icon {
+  color: #547a6a;
+  display: flex;
+}
+.informacoes-location-caption .icon img {
+  width: 30px;
+  height: 30px;
+}
+.informacoes-location-caption .description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+.informacoes-location-caption .description p {
+  margin: 0;
+}
+.informacoes-location-caption .description .location {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.informacoes-location-caption a {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=main.css.map */
