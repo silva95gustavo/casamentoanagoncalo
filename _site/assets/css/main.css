@@ -21,6 +21,7 @@ body {
   position: relative;
   min-height: 100vh;
   background: url("../img/background.webp");
+  background-color: #ffffee;
   color: #547a6a;
   font-family: georgia, palatino, "book antiqua", "palatino linotype", serif;
   font-size: 18px;
@@ -123,6 +124,20 @@ h3 {
 }
 .two-column :last-child {
   text-align: left;
+}
+
+.outline-button {
+  margin: 1rem;
+}
+.outline-button a {
+  border: solid #547a6a 1px;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 0.5rem;
+  transition: ease 0.3s;
+}
+.outline-button a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .confirmar-presenca-contactos {

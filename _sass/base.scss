@@ -32,6 +32,7 @@ body {
   position: relative;
   min-height: 100vh;
   background: url("../img/background.webp");
+  background-color: #ffffee; // Visible when scrolling beyond page dimensions.
   color: $bodyColor;
   font-family: $bodyFont;
   font-size: 18px;
@@ -142,5 +143,20 @@ h3 {
 
   :last-child {
     text-align: left;
+  }
+}
+
+.outline-button {
+  margin: 1rem;
+  a {
+    border: solid $bodyColor 1px;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 0.5rem;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+    transition: ease 0.3s;
   }
 }
